@@ -8,7 +8,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-    Use:   "lgtmapp",
+    Use:   "RandoLGTM",
     Short: "LGTM message generator",
     Long:  `This is a CLI tool for generating and managing LGTM messages.`,
 }
