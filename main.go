@@ -1,10 +1,9 @@
 /*
 Copyright © 2023 NAME HERE <EMAIL ADDRESS>
-
 */
 package main
 
-import "auto-lgtm/cmd"
+import "RandoLGTM/cmd"
 
 func main() {
 	cmd.Execute()

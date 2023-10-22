@@ -1,4 +1,4 @@
-module auto-lgtm
+module RandoLGTM
 
 go 1.21.0
 
