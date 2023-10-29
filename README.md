@@ -1,3 +1,7 @@
+## rando_lgtm
+
+CLI tool that randomly returns words that can be used for code review approve
+
 
 ![画面収録 2023-10-29 午後6 41 09](https://github.com/yossydev/rando_lgtm/assets/87469023/f9b9a13a-0cc3-4f42-90f4-e89ab12da228)
 
