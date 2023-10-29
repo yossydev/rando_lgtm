@@ -2,7 +2,6 @@
 
 CLI tool that randomly returns words that can be used for code review approve
 
-
 ![画面収録 2023-10-29 午後6 41 09](https://github.com/yossydev/rando_lgtm/assets/87469023/f9b9a13a-0cc3-4f42-90f4-e89ab12da228)
 
 ## Quick Start
@@ -21,10 +20,9 @@ Added new LGTM message: 'Hello World'
 ```
 
 ## Features
-- **Simple** :羽: - Just run the command and get a random LGTM image.
-- **Fun** :クラッカー: - Make your code review process more enjoyable with random LGTM images.
-## Documentation
-The documentation is available on [GitHub](https://github.com/yossydev/RandoLGTM).
+- **Simplicity** :feather: - Just run the command and get a random LGTM (Looks Good To Me) message. No complicated setup or usage!
+- **Fun** 🥳 - Add a dash of joy to your code review process with random LGTM messages. Make approving pull requests a little more entertaining!## Documentation
+
 ## Contributing
 Contributions Welcome! You can contribute in the following ways.
 - Create an Issue - Propose a new feature. Report a bug.
