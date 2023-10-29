@@ -8,7 +8,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-    Use:   "RandoLGTM",
+    Use:   "rando_lgtm",
     Short: "LGTM message generator",
     Long:  `This is a CLI tool for generating and managing LGTM messages.`,
 }
@@ -21,5 +21,5 @@ func Execute() {
 }
 
 func main() {
-    Execute()
+   Execute()
 }
