@@ -1,7 +1,8 @@
 name: Bump Homebrew Formula
 on:
   push:
-    branches: [main]
+    tags: "v*"
+
 jobs:
   homebrew:
     name: Bump Homebrew formula
@@ -9,10 +10,6 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Extract version
-        id: extract-version
-        run: |
-          echo "tag-name=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
       - name: Bump Homebrew formula
         uses: mislav/bump-homebrew-formula-action@v3
         with:
@@ -20,9 +17,9 @@ jobs:
           formula-path: rando_lgtm.rb
           homebrew-tap: yossydev/homebrew-RandoLGTM
           base-branch: main
-          download-url: https://github.com/yossydev/RandoLGTM/archive/refs/tags/${{ steps.extract-version.outputs.tag-name }}.tar.gz
+          download-url: https://github.com/yossydev/rando_lgtm/archive/refs/tags/${{ github.ref_name }}.tar.gz
           commit-message: |
-            rando_lgtm ${{ steps.extract-version.outputs.tag-name }}
+            rando_lgtm ${{ github.ref_name }}
             Created by https://github.com/mislav/bump-homebrew-formula-action
         env:
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
