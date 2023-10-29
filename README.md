@@ -1,15 +1,38 @@
-# RandoLGTM
 
-![画面収録 2023-10-22 午後8 25 46](https://github.com/yossydev/RandoLGTM/assets/87469023/0822aef6-4072-4a60-a9bc-4ee83d4de5d1)
+![画面収録 2023-10-29 午後6 41 09](https://github.com/yossydev/rando_lgtm/assets/87469023/f9b9a13a-0cc3-4f42-90f4-e89ab12da228)
 
-## Install
+## Quick Start
 ```
-$ brew install rando_lgtm
+brew install rando_lgtm
 ```
 
 ## Usage
-```
-$ RandoLGTM getLgtm
 
-$ RandoLGTM addLgtm
 ```
+$ rando_lgtm get
+🤣Great job!🤣
+
+$ rando_lgtm add "Hello World"
+Added new LGTM message: 'Hello World'
+```
+
+## Features
+- **Simple** :羽: - Just run the command and get a random LGTM image.
+- **Fun** :クラッカー: - Make your code review process more enjoyable with random LGTM images.
+## Documentation
+The documentation is available on [GitHub](https://github.com/yossydev/RandoLGTM).
+## Contributing
+Contributions Welcome! You can contribute in the following ways.
+- Create an Issue - Propose a new feature. Report a bug.
+- Pull Request - Fix a bug and typo. Refactor the code.
+- Share - Share your thoughts on the Blog, Twitter, and others.
+- Use the tool - Please try to use RandoLgtm.
+
+## Contributors
+Thanks to [all contributors](https://github.com/yossydev/rando_lgtm/graphs/contributors)!
+
+## Authors
+yossydev <https://github.com/yossydev>
+
+## License
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
