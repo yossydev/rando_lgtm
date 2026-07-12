@@ -11,7 +11,7 @@ jobs:
       contents: read
     steps:
       - name: Bump Homebrew formula
-        uses: mislav/bump-homebrew-formula-action@v3
+        uses: mislav/bump-homebrew-formula-action@v4.2
         with:
           formula-name: rando_lgtm
           formula-path: rando_lgtm.rb
